@@ -11,5 +11,7 @@ tar /usr/local -xzf go1.7.5.linux-amd64.tar.gz
 4 - add Path do seu lib/go
 export PATH=$PATH:/usr/local/go/bin
 
+obs: esse PATH tem que ir no seu etc/profile
+
 5 - Só rodar "go run ola.go"
 
